@@ -15,7 +15,12 @@ int main()
 	}
 	if (d == 0)
 	{
-	x1 = -b / 2 * a;
-	printf("x1=x2=%.2lf.\n", x1);
+		x1 = -b / 2 * a;
+		printf("x1=x2=%.2lf.\n", x1);
 	}
+	if (d < 0)
+	{
+		printf("No solution");
+	}
+	return 0;
 }
